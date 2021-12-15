@@ -1,0 +1,121 @@
+.list-container {
+  width: 100%;
+  height: 100v;
+}
+
+.list-container .body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-container .body .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.list-container .body .row .details {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.list-container .body .row .details .img img {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.list-container .body .row .details .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-container .body .row .details .info .heading {
+  font-size: 17px;
+  font-weight: 500;
+  padding: 5px 0;
+}
+
+.list-container .body .row .details .info .news {
+  font-size: 15px;
+  font-weight: 400;
+  padding: 5px 0;
+}
+
+.list-container .body .row .details .info .date {
+  color: grey;
+}
+
+.list-container .body .row .btn-container {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-container .body .row .btn-container .cancel-btn p {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #f00;
+}
+
+.list-container .footer {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-container .footer .btns {
+  display: flex;
+  align-items: center;
+}
+
+.list-container .footer .btns .left-icon {
+  cursor: pointer;
+}
+
+.list-container .footer .btns .left-icon .icon {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 1rem;
+}
+
+.list-container .footer .btns .btn-1 {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 0 1rem;
+  background-color: #bababb;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.list-container .footer .btns .btn-1.active-btn {
+  background-color: #fff;
+  color: #6d6d6d;
+  transform: scale(1.2);
+}

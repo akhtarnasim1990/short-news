@@ -1,0 +1,115 @@
+.grid-list-container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.grid-list-container .card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-list-container .card {
+  width: 14rem;
+  height: 17rem;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.grid-list-container .card .card-details {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-list-container .card .card-details .btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.grid-list-container .card .card-details .btn-container .cancel-btn p {
+  color: #f00;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.grid-list-container .card .card-details .heading {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 3px 0;
+}
+
+.grid-list-container .card .card-details .news {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 3px 0;
+}
+
+.grid-list-container .card .card-details .date {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 3px 0;
+}
+
+.grid-list-container .card .card-details .img {
+  margin: 5px 0;
+}
+
+.grid-list-container .card .card-details .img img {
+  width: 100%;
+  height: 7rem;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.grid-list-container .footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-list-container .footer .btns {
+  display: flex;
+  align-items: center;
+}
+
+.grid-list-container .footer .btns .left-icon {
+  cursor: pointer;
+}
+
+.grid-list-container .footer .btns .left-icon .icon {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 1rem;
+}
+
+.grid-list-container .footer .btns .btn-1 {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 0 1rem;
+  background-color: #bababb;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.grid-list-container .footer .btns .btn-1.active-btn {
+  background-color: #fff;
+  color: #6d6d6d;
+  transform: scale(1.2);
+}
